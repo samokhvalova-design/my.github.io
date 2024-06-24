@@ -41,9 +41,8 @@
 #menuToggle {
     display: block;
     position: relative;
-    /* left: 232px; */
     top: 25px;
-    right: -700px;
+    right: -650px;
     z-index: 1;
     user-select: none;
     width: 70px;
