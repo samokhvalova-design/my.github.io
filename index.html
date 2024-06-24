@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Samokhvalova_Desigh</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="shortcut icon" href="/favicon.ico?v=2" type="image/x-icon">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./css/null.css">
+    <link rel="stylesheet" href="./css/head.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/service.css">
+    <link rel="stylesheet" href="./css/contacts.css">
+    <link rel="stylesheet" href="./css/foot.css">
+</head>
+<body>
+    <div class="page">
+        <header id="start" class="head">
+            <a class="link" href="../index.html">
+                <picture class="pic_head">
+                    <img src="./img/logo.png" alt="logo">
+                </picture>
+            </a>
+            <nav class="window">
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <a href="#portfolio" class="link_2"><li>ПОРТФОЛИО</li></a>
+                        <a href="#about" class="link_2"><li>ОБО МНЕ</li></a>
+                        <a href="#service" class="link_2"><li>УСЛУГИ</li></a>
+                        <a href="#contacts" class="link_2"><li>КОНТАКТЫ</li></a>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="nav">
+                <a href="#portfolio" class="link">ПОРТФОЛИО</a>
+                <a href="#about" class="link">ОБО МНЕ</a>
+                <a href="#service" class="link">УСЛУГИ</a>
+                <a href="#contacts" class="link">КОНТАКТЫ</a>
+                <div class="messengers">
+                    <a href="https://wa.me/79092636541" class="link">
+                            <svg class="svg_messenger" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22.5917 1C34.2563 1 43.7117 10.4554 43.7117 22.12C43.7117 33.7846 34.2563 43.24 22.5917 43.24C18.8593 43.246 15.1926 42.2583 11.9683 40.3782L1.48016 43.24L4.33558 32.7476C2.45399 29.5223 1.46547 25.854 1.47171 22.12C1.47171 10.4554 10.9271 1 22.5917 1ZM15.394 12.1936L14.9716 12.2105C14.6981 12.2271 14.4309 12.299 14.1859 12.4217C13.9568 12.5514 13.7477 12.7136 13.565 12.9032C13.3116 13.1419 13.168 13.3489 13.0138 13.5495C12.2326 14.5652 11.812 15.8121 11.8184 17.0934C11.8226 18.1283 12.0929 19.1357 12.5153 20.0777C13.3792 21.9827 14.8005 23.9997 16.676 25.8688C17.128 26.3186 17.5715 26.7706 18.0488 27.1909C20.3791 29.2426 23.1561 30.7222 26.1589 31.512L27.3585 31.6958C27.7492 31.7169 28.1399 31.6873 28.5327 31.6683C29.1478 31.6366 29.7484 31.47 30.292 31.1805C30.5686 31.038 30.8385 30.883 31.1009 30.7158C31.1009 30.7158 31.1918 30.6567 31.3649 30.5257C31.6501 30.3145 31.8254 30.1646 32.0619 29.9175C32.2372 29.7359 32.3893 29.5225 32.5054 29.2797C32.6702 28.9354 32.8349 28.2786 32.9025 27.7316C32.9532 27.3134 32.9384 27.0853 32.932 26.9438C32.9236 26.7178 32.7356 26.4834 32.5308 26.3841L31.3016 25.8329C31.3016 25.8329 29.4641 25.0324 28.3406 24.5213C28.223 24.47 28.097 24.4406 27.9688 24.4347C27.8243 24.4199 27.6783 24.4362 27.5406 24.4824C27.4029 24.5287 27.2767 24.6039 27.1705 24.703C27.1599 24.6987 27.0184 24.8191 25.4915 26.6692C25.4038 26.787 25.2831 26.876 25.1447 26.9249C25.0063 26.9738 24.8564 26.9804 24.7143 26.9438C24.5767 26.9069 24.4419 26.8603 24.3109 26.8044C24.049 26.6946 23.9582 26.6523 23.7786 26.5763C22.5665 26.0473 21.4442 25.3327 20.4522 24.458C20.1861 24.2256 19.939 23.9722 19.6856 23.7272C18.8547 22.9315 18.1306 22.0313 17.5313 21.0492L17.4067 20.8486C17.3172 20.7137 17.2449 20.5683 17.1913 20.4156C17.1111 20.1051 17.3201 19.8559 17.3201 19.8559C17.3201 19.8559 17.8334 19.2941 18.072 18.99C18.3043 18.6943 18.5008 18.4071 18.6275 18.2022C18.8767 17.8009 18.9548 17.3891 18.8239 17.0702C18.2325 15.6256 17.6201 14.1873 16.9907 12.7596C16.8661 12.4766 16.4965 12.2738 16.1607 12.2337C16.0466 12.221 15.9326 12.2084 15.8185 12.1999C15.5349 12.1858 15.2507 12.1887 14.9674 12.2084L15.394 12.1936Z" fill="white"/>
+                            </svg>
+                    </a>
+                    <a href="https://t.me/alyona_samokhvalova" class="link">
+                            <svg class="svg_messenger" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22.0336 1C10.4624 1 1.07129 10.4618 1.07129 22.12C1.07129 33.7782 10.4624 43.24 22.0336 43.24C33.6047 43.24 42.9958 33.7782 42.9958 22.12C42.9958 10.4618 33.6047 1 22.0336 1ZM31.76 15.3616C31.4456 18.6986 30.0831 26.8086 29.3913 30.5469C29.0978 32.1309 28.5109 32.6589 27.9659 32.7222C26.7501 32.8278 25.8277 31.9197 24.6538 31.1382C22.8092 29.9133 21.761 29.153 19.9793 27.9702C17.904 26.5974 19.2456 25.8371 20.4404 24.6122C20.7549 24.2954 26.1212 19.3744 26.226 18.9309C26.2406 18.8637 26.2386 18.794 26.2204 18.7277C26.2021 18.6615 26.1681 18.6007 26.1212 18.5507C25.9954 18.4451 25.8277 18.4874 25.681 18.5085C25.4923 18.5507 22.5576 20.5149 16.8349 24.401C15.9964 24.9712 15.2418 25.2669 14.571 25.2458C13.8163 25.2246 12.3909 24.8234 11.3218 24.4643C10.0012 24.0419 8.97406 23.8096 9.05791 23.0704C9.09984 22.6902 9.6239 22.3101 10.6091 21.9088C16.7301 19.2266 20.7968 17.4525 22.8301 16.6077C28.6576 14.1578 29.8525 13.7354 30.6491 13.7354C30.8167 13.7354 31.215 13.7776 31.4666 13.9888C31.6762 14.1578 31.7391 14.3901 31.76 14.559C31.7391 14.6858 31.781 15.0659 31.76 15.3616Z" fill="white"/>
+                            </svg>
+                    </a>
+                    <a href="https://vk.com/samokhvalova_design" class="link">
+                            <svg class="svg_messenger" width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22.3711 0.878906C10.8658 0.878906 1.53906 10.3345 1.53906 21.9989C1.53906 33.6633 10.8658 43.1189 22.3711 43.1189C33.8765 43.1189 43.2032 33.6633 43.2032 21.9989C43.2032 10.3345 33.8765 0.878906 22.3711 0.878906ZM30.3828 24.7071C30.3828 24.7071 32.2251 26.5507 32.6787 27.4065C32.6917 27.4241 32.6982 27.4417 32.7025 27.4505C32.887 27.7651 32.9304 28.0093 32.8392 28.1919C32.6873 28.4955 32.1665 28.6451 31.9886 28.6583H28.7336C28.5079 28.6583 28.0349 28.5989 27.462 28.1985C27.0215 27.8861 26.5875 27.3735 26.1643 26.8741C25.5328 26.1305 24.986 25.4881 24.4348 25.4881C24.3648 25.488 24.2952 25.4991 24.2287 25.5211C23.812 25.6575 23.2782 26.2603 23.2782 27.8663C23.2782 28.3679 22.8876 28.6561 22.612 28.6561H21.1212C20.6134 28.6561 17.9682 28.4757 15.6246 25.9699C12.7558 22.9009 10.1735 16.7453 10.1518 16.6881C9.98907 16.2899 10.3254 16.0765 10.6922 16.0765H13.9797C14.4181 16.0765 14.5613 16.3471 14.6611 16.5869C14.7783 16.8663 15.2079 17.9773 15.9132 19.2269C17.0568 21.2641 17.7577 22.0913 18.3197 22.0913C18.4251 22.0901 18.5286 22.0629 18.6214 22.0121C19.3548 21.5985 19.2181 18.9475 19.1856 18.3975C19.1856 18.2941 19.1834 17.2117 18.808 16.6925C18.5389 16.3163 18.081 16.1733 17.8033 16.1205C17.9157 15.9632 18.0638 15.8357 18.2351 15.7487C18.7385 15.4935 19.6456 15.4561 20.5462 15.4561H21.0474C22.0239 15.4693 22.2757 15.5331 22.6294 15.6233C23.3455 15.7971 23.3607 16.2657 23.2977 17.8695C23.2782 18.3249 23.2587 18.8397 23.2587 19.4469C23.2587 19.5789 23.2522 19.7197 23.2522 19.8693C23.2305 20.6855 23.2044 21.6117 23.773 21.9923C23.8471 22.0395 23.9328 22.0646 24.0203 22.0649C24.2178 22.0649 24.8124 22.0649 26.4225 19.2643C26.9191 18.3629 27.3506 17.4262 27.7137 16.4615C27.7462 16.4043 27.8417 16.2283 27.9546 16.1601C28.0378 16.1171 28.1302 16.0952 28.2236 16.0963H32.0884C32.5094 16.0963 32.798 16.1601 32.8523 16.3251C32.9477 16.5869 32.8349 17.3855 31.0707 19.8077L30.283 20.8615C28.6837 22.9867 28.6837 23.0945 30.3828 24.7071Z" fill="white"/>
+                            </svg>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <section id="hero" class="block_1">
+                <video autoplay loop muted width="100%">
+                    <source src="video/logo_animation.webm" type="video/webm" />
+                    <source src="video/logo_animation.mp4" type="video/mp4" />
+                </video>
+            </section>
+            <section id="portfolio" class="block_2">
+                <div class="tab-container ">
+                    <div class="tab-wrapper">
+                        <input type="radio" name="tab" id="tab1" checked />
+                        <label class="tab-label" for="tab1" nth="1">БРЕНДИНГ</label>
+                        <div class="tab-item" id="tab-content1">
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/fitness_energy.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_logo_1.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_logo_1.webp">
+                                            <img class="card_img" src="img/portfolio_logo_1.jpg" alt="fitness_energy">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">ФИТНЕС-СТУДИЯ</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Брендинг</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/karry_nales.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_logo_2.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_logo_2.webp">
+                                            <img class="card_img" src="img/portfolio_logo_2.jpg" alt="karry_nails">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_white">СТУДИЯ МАНИКЮРА</h2>
+                                <div class="bottom_card_text_white">
+                                    <p class="card_portfolio_text_1">Фирменный стиль</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/ai_gloss.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_logo_3.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_logo_3.webp">
+                                            <img class="card_img" src="img/portfolio_logo_3.jpg" alt="ai_gloss">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">САЛОН КРАСОТЫ</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Логотип</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/gubina.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_logo_4.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_logo_4.webp">
+                                            <img class="card_img" src="img/portfolio_logo_4.jpg" alt="gubina">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_white">САЛОН МАНИКЮРА</h2>
+                                <div class="bottom_card_text_white">
+                                    <p class="card_portfolio_text_1">Логотип</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/7_patron.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_logo_5.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_logo_5.webp">
+                                            <img class="card_img" src="img/portfolio_logo_5.jpg" alt="7_patron">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">РОК-ГРУППА</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Логотип</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/kate_alex_brow.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_logo_6.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_logo_6.webp">
+                                            <img class="card_img" src="img/portfolio_logo_6.jpg" alt="kate_alex_brow">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">ЛИЧНЫЙ БРЕНД</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Логотип</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <input type="radio" name="tab" id="tab2" />
+                        <label class="tab-label" for="tab2" nth="2">ПОЛИГРАФИЯ</label>
+                        <div class="tab-item" id="tab-content2">
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/family_calendar.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_poly_1.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_poly_1.webp">
+                                            <img class="card_img" src="img/portfolio_poly_1.jpg" alt="family_calendar">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">СЕМЕЙНЫЙ КАЛЕНДАРЬ</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Полиграфия</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/torty.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_poly_2.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_poly_2.webp">
+                                            <img class="card_img" src="img/portfolio_poly_2.jpg" alt="torty">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">ЖУРНАЛ</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Многостраничные издания</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/garmoniya_tela.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_poly_3.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_poly_3.webp">
+                                            <img class="card_img" src="img/portfolio_poly_3.jpg" alt="garmoniya_tela">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">ГАРМОНИЯ ТЕЛА</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Полиграфия</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/candels.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_poly_4.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_poly_4.webp">
+                                            <img class="card_img" src="img/portfolio_poly_4.jpg" alt="candles">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">CANDLES</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Полиграфия</p>
+                                    <p class="card_portfolio_text_2">2022</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/posters.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_poly_5.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_poly_5.webp">
+                                            <img class="card_img" src="img/portfolio_poly_5.png" alt="posters">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">POSTERS</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Полиграфия</p>
+                                    <p class="card_portfolio_text_2">2022</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/mini_calendar.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_poly_6.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_poly_6.webp">
+                                            <img class="card_img" src="img/portfolio_poly_6.png" alt="mini-calendar">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">МИНИ-КАЛЕНДАРЬ</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Полиграфия</p>
+                                    <p class="card_portfolio_text_2">2022</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <input type="radio" name="tab" id="tab3" />
+                        <label class="tab-label" for="tab3" nth="3">WEB</label>
+                        <div class="tab-item" id="tab-content3">
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/dream_travel.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_web_1.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_web_1.webp">
+                                            <img class="card_img" src="img/portfolio_web_1.jpg" alt="dream_travel">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">DREAM TRAVEL</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Лендинг</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/velocity.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_web_2.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_web_2.webp">
+                                            <img class="card_img" src="img/portfolio_web_2.jpg" alt="velocity">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">VELOCITY</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Лендинг</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/filatova.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_web_3.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_web_3.webp">
+                                            <img class="card_img" src="img/portfolio_web_3.jpg" alt="filatova">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">КСЕНИЯ ФИЛАТОВА</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Лендинг</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/zerno.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_web_4.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_web_4.webp">
+                                            <img class="card_img" src="img/portfolio_web_4.png" alt="zerno">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">ZERNO</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Лендинг</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/sverkanie.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_web_5.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_web_5.webp">
+                                            <img class="card_img" src="img/portfolio_web_5.png" alt="sverkanie">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">СВЕРКАНИЕ</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Лендинг</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/lodki.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_web_6.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_web_6.webp">
+                                            <img class="card_img" src="img/portfolio_web_6.png" alt="lodki">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">ЛОДКИ</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Инфографика</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <input type="radio" name="tab" id="tab4" />
+                        <label class="tab-label" for="tab4" nth="4">АНИМАЦИЯ</label>
+                        <div class="tab-item" id="tab-content4">
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/vse_i_srazu.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_anim_3.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_anim_3.webp">
+                                            <img class="card_img" src="img/portfolio_anim_3.jpg" alt="vse_i_srazu">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_white">ЖК ВСЁ И СРАЗУ</h2>
+                                <div class="bottom_card_text_white">
+                                    <p class="card_portfolio_text_1">Рекламный видеоролик</p>
+                                    <p class="card_portfolio_text_2">2024</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/new_year.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_anim_1.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_anim_1.webp">
+                                            <img class="card_img" src="img/portfolio_anim_1.jpg" alt="new_year">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">NEW YEAR BANNER</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Анимация</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/love_day.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_anim_2.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_anim_2.webp">
+                                            <img class="card_img" src="img/portfolio_anim_2.jpg" alt="love_day">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">LOVE DAY BANNER</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">Анимация</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <input type="radio" name="tab" id="tab5" />
+                        <label class="tab-label" for="tab5" nth="5">3D-ВИЗУАЛ</label>
+                        <div class="tab-item" id="tab-content5">
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/studiya.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_3d_1.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_3d_1.webp">
+                                            <img class="card_img" src="img/portfolio_3d_1.jpg" alt="studiya">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">СТУДИЯ 27 КВ.М.</h2>
+                                <div class="bottom_card_text_white">
+                                    <p class="card_portfolio_text_1">3D-визуализация</p>
+                                    <p class="card_portfolio_text_2">2024</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/3d-slozhnyh.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_3d_2.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_3d_2.webp">
+                                            <img class="card_img" src="img/portfolio_3d_2.jpg" alt="3d-slozhnyh">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">СЛОЖНЫЕ ОБЪЕКТЫ</h2>
+                                <div class="bottom_card_text_white">
+                                    <p class="card_portfolio_text_1">3D-моделирование</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/package.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_3d_3.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_3d_3.webp">
+                                            <img class="card_img" src="img/portfolio_3d_3.jpg" alt="package">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_white">УПАКОВКА</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">3D-моделирование</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/lettering.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_3d_4.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_3d_4.webp">
+                                            <img class="card_img" src="img/portfolio_3d_4.jpg" alt="lettering">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_white">3D-ЛЕТТЕРИНГ</h2>
+                                <div class="bottom_card_text_white">
+                                    <p class="card_portfolio_text_1">3D-моделирование</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/jewerly.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_3d_5.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_3d_5.webp">
+                                            <img class="card_img" src="img/portfolio_3d_5.jpg" alt="jewerly">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">ЮВЕЛИРНЫЕ ИЗДЕЛИЯ</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">3D-моделирование</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                            <div class="card_portfolio">
+                                <div>
+                                    <a href="pages/glass.html">
+                                        <picture class="pic_portfolio">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/avif" srcset="img/portfolio_3d_6.avif">
+                                            <source class="card_img" media="(max-width: 407px)" type="image/webp" srcset="img/portfolio_3d_6.webp">
+                                            <img class="card_img" src="img/portfolio_3d_6.jpg" alt="glass">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <h2 class="card_portfolio_title_black">СТЕКЛО</h2>
+                                <div class="bottom_card_text_black">
+                                    <p class="card_portfolio_text_1">3D-моделирование</p>
+                                    <p class="card_portfolio_text_2">2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a href="#contacts" class="link_service">
+                        <button class="btn">ОБСУДИТЬ ПРОЕКТ</button>
+                    </a>
+                </div>
+            </section>
+            <section id="about" class="block_3">
+                <div class="block_start">
+                    <div class="block_3_left">
+                        <h2 class="title_block">ОБО МНЕ</h2>
+                        <div class="photo_about_me">
+                            <picture class="pic_about_me">
+                                <source media="(max-width: 407px)" type="image/avif" srcset="img/my_photo.avif">
+                                <source media="(max-width: 407px)" type="image/webp" srcset="img/my_photo.webp">
+                                <img src="img/my_photo.jpg" alt="my_photo">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="block_3_right">
+                        <p class="text_block_3_right">Я Алёна Самохвалова. Профессиональный графический и веб-дизайнер, штатный дизайнер в сфере недвижимости и вечный студент.</p>
+                        <div class="education">
+                            <h2 class="education_title">ОБРАЗОВАНИЕ</h2>
+                            <div class="education_block">
+                                <div class="education_list_univer">
+                                    <div class="education_univer">
+                                        <h2 class="education_univer_title">Компьютерная академия ТОП (2022-2024)</h2>
+                                    </div>
+                                    <div class="education_univer">
+                                        <h2 class="education_univer_title">Eduson Academy (2023)</h2>
+                                    </div>
+                                    <div class="education_univer">
+                                        <h2 class="education_univer_title">Логомашина (2022-2023)</h2>
+                                    </div>
+                                    <div class="education_univer">
+                                        <h2 class="education_univer_title">Университет профессионального образования (2022)</h2>
+                                    </div>
+                                    <div class="education_univer">
+                                        <h2 class="education_univer_title">ТулГУ (2007-2012)</h2>
+                                    </div>
+                                </div>
+                                <div class="education_list_course">
+                                    <div class="education_course">
+                                        <h2 class="education_course_title">Специальность «Компьютерная графика и дизайн»</h2>
+                                    </div>
+                                    <div class="education_course">
+                                        <h2 class="education_course_title">Курс «Веб-дизайнер»</h2>
+                                    </div>
+                                    <div class="education_course">
+                                        <h2 class="education_course_title">Интенсивы «Графический дизайн», «Web-дизайн» и   «Motion-дизайн»</h2>
+                                    </div>
+                                    <div class="education_course">
+                                        <h2 class="education_course_title">Курс «Основы графического дизайна»</h2>
+                                    </div>
+                                    <div class="education_course">
+                                        <h2 class="education_course_title">Специальность «Инженер-эколог»</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="hard_skills">
+                        <h2 class="hard_skills_title">HARD SKILLS</h2>
+                        <div class="hard_skills_block">
+                            <div class="hard_skills_block_mini">
+                                <p class="hard_skills_text">Adobe Photoshop</p>
+                                <p class="hard_skills_text">Adobe Illustrator</p>
+                                <p class="hard_skills_text">Adobe InDesign</p>
+                                <p class="hard_skills_text">Adobe After Effects</p>
+                                <p class="hard_skills_text">Adobe Premier Pro</p>
+                                <p class="hard_skills_text">CorelDROW</p>
+                            </div>
+                            <div class="hard_skills_block_mini">
+                                <p class="hard_skills_text">Autodesk Autocad</p>
+                                <p class="hard_skills_text">Autodesk 3DS Max</p>
+                                <p class="hard_skills_text">Autodesk Maya</p>
+                                <p class="hard_skills_text">Substance Painter</p>
+                                <p class="hard_skills_text">ZBrush</p>
+                                <p class="hard_skills_text">Figma</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="soft_skills">
+                        <h2 class="soft_skills_title">SOFT SKILLS</h2>
+                        <div class="soft_skills_texts">
+                            <p class="soft_skills_text">Моя творческая миссия — помогать людям делать их бизнес более привлекательным и успешным, создавая для этого качественные дизайнерские решения.</p>
+                            <p class="soft_skills_text">Для меня важно, чтобы качество и визуальная составляющая дизайна совпадали с пожеланиями клиента. Поэтому брифинг и подготовительный этап занимает большую часть времени работы над проектом.</p>
+                            <p class="soft_skills_text">Многолетний опыт в сфере продаж воспитал во мне доброжелательность, тактичность и отзывчивость к клиенту. Эти качества помогают мне выстраивать позитивные и продуктивные отношения с людьми.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="service" class="block_4">
+                <h2 class="title_block">УСЛУГИ</h2>
+                <div class="services">
+                    <div class="card_service">
+                        <div class="card_service_content">
+                            <div class="card_service_titles">
+                                <h2 class="card_service_title_1">Брендук</h2>
+                                <h2 class="card_service_title_2">ЦЕНА:</h2>
+                            </div>
+                            <div class="card_service_texts">
+                                <p class="card_service_text_1">Презентация 3-х вариантов логотипа, логобук, брендбук с фирменным стилем и набором рекламных материалов, макеты на печать</p>
+                                <p class="card_service_text_2">20 000 руб.</p>
+                            </div>
+                        </div>
+                        <a href="#contacts" class="link_service">
+                            <button class="btn_2">ЗАКАЗАТЬ</button>
+                        </a>
+                    </div>
+                    <div class="card_service">
+                        <div class="card_service_content">
+                            <div class="card_service_titles">
+                                <h2 class="card_service_title_1">Фирменный стиль</h2>
+                                <h2 class="card_service_title_2">ЦЕНА:</h2>
+                            </div>
+                            <div class="card_service_texts">
+                                <p class="card_service_text_1">Презентация 3-х вариантов логотипа, логобук, гайдбук по фирменному стилю, макеты на печать</p>
+                                <p class="card_service_text_2">10 000 руб.</p>
+                            </div>
+                        </div>
+                        <a href="#contacts" class="link_service">
+                            <button class="btn_2">ЗАКАЗАТЬ</button>
+                        </a>
+                    </div>
+                    <div class="card_service">
+                        <div class="card_service_content">
+                            <div class="card_service_titles">
+                                <h2 class="card_service_title_1">Разработка логотипа</h2>
+                                <h2 class="card_service_title_2">ЦЕНА:</h2>
+                            </div>
+                            <div class="card_service_texts">
+                                <p class="card_service_text_1">Презентация 3-х вариантов логотипа, логобук</p>
+                                <p class="card_service_text_2">5 000 руб.</p>
+                            </div>
+                        </div>
+                        <a href="#contacts" class="link_service">
+                            <button class="btn_2">ЗАКАЗАТЬ</button>
+                        </a>
+                    </div>
+                    <div class="card_service">
+                        <div class="card_service_content">
+                            <div class="card_service_titles">
+                                <h2 class="card_service_title_1">Полиграфия</h2>
+                                <h2 class="card_service_title_2">ЦЕНА:</h2>
+                            </div>
+                            <div class="card_service_texts">
+                                <p class="card_service_text_1">Макеты многостраничных изданий, буклетов, листовок, флаеров, баннеров</p>
+                                <p class="card_service_text_2">от 1 000 руб.</p>
+                            </div>
+                        </div>
+                        <a href="#contacts" class="link_service">
+                            <button class="btn_2">ЗАКАЗАТЬ</button>
+                        </a>
+                    </div>
+                    <div class="card_service">
+                        <div class="card_service_content">
+                            <div class="card_service_titles">
+                                <h2 class="card_service_title_1">Визитка</h2>
+                                <h2 class="card_service_title_2">ЦЕНА:</h2>
+                            </div>
+                            <div class="card_service_texts">
+                                <p class="card_service_text_1">2-3 варианта дизайна, предпечатная подготовка макета</p>
+                                <p class="card_service_text_2">2 000 руб.</p>
+                            </div>
+                        </div>
+                        <a href="#contacts" class="link_service">
+                            <button class="btn_2">ЗАКАЗАТЬ</button>
+                        </a>
+                    </div>
+                    <div class="card_service">
+                        <div class="card_service_content">
+                            <div class="card_service_titles">
+                                <h2 class="card_service_title_1">Афиша</h2>
+                                <h2 class="card_service_title_2">ЦЕНА:</h2>
+                            </div>
+                            <div class="card_service_texts">
+                                <p class="card_service_text_1">2-3 варианта дизайна, макет в статичном формате, анимация макета</p>
+                                <p class="card_service_text_2">от 1 000 руб.</p>
+                            </div>
+                        </div>
+                        <a href="#contacts" class="link_service">
+                            <button class="btn_2">ЗАКАЗАТЬ</button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section id="contacts" class="block_5">
+                <h2 class="title_contacts">КОНТАКТЫ</h2>
+                <div class="contacts">
+                    <div class="contacts_messengers">
+                        <p class="contacts_text">Если вы хотите обсудить проект, задать интересующие вас вопросы, заказать дизайн, заполните форму обратной связи или свяжитесь со мной через мессенджер. Я всегда на связи и жду ваших предложений.</p>
+                        <a href="https://wa.me/79092636541" class="messenders_link">
+                            WhatsApp
+                            <svg class="svg_arrow" width="44" height="44" viewBox="0 0 44 44" fill="#FF447C" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.0212 35.1037C23.8281 34.9103 23.7196 34.6482 23.7196 34.3749C23.7196 34.1016 23.8281 33.8395 24.0212 33.6462L34.6345 23.0312L6.87493 23.0312C6.60143 23.0312 6.33912 22.9225 6.14572 22.7291C5.95233 22.5357 5.84368 22.2734 5.84368 21.9999C5.84368 21.7264 5.95233 21.4641 6.14572 21.2707C6.33912 21.0773 6.60143 20.9687 6.87493 20.9687L34.6345 20.9687L24.0212 10.3537C23.839 10.1582 23.7399 9.89961 23.7446 9.63244C23.7493 9.36528 23.8575 9.11037 24.0465 8.92143C24.2354 8.73249 24.4903 8.62426 24.7575 8.61954C25.0246 8.61483 25.2832 8.714 25.4787 8.89616L37.8537 21.2712C38.0468 21.4645 38.1553 21.7266 38.1553 21.9999C38.1553 22.2732 38.0468 22.5353 37.8537 22.7287L25.4787 35.1037C25.2853 35.2968 25.0232 35.4053 24.7499 35.4053C24.4766 35.4053 24.2145 35.2968 24.0212 35.1037Z" fill="#FF447C"/>
+                            </svg>
+                        </a>
+                        <a href="https://t.me/alyona_samokhvalova" class="messenders_link">
+                            Telegram
+                            <svg class="svg_arrow" width="44" height="44" viewBox="0 0 44 44" fill="#FF447C" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.0212 35.1037C23.8281 34.9103 23.7196 34.6482 23.7196 34.3749C23.7196 34.1016 23.8281 33.8395 24.0212 33.6462L34.6345 23.0312L6.87493 23.0312C6.60143 23.0312 6.33912 22.9225 6.14572 22.7291C5.95233 22.5357 5.84368 22.2734 5.84368 21.9999C5.84368 21.7264 5.95233 21.4641 6.14572 21.2707C6.33912 21.0773 6.60143 20.9687 6.87493 20.9687L34.6345 20.9687L24.0212 10.3537C23.839 10.1582 23.7399 9.89961 23.7446 9.63244C23.7493 9.36528 23.8575 9.11037 24.0465 8.92143C24.2354 8.73249 24.4903 8.62426 24.7575 8.61954C25.0246 8.61483 25.2832 8.714 25.4787 8.89616L37.8537 21.2712C38.0468 21.4645 38.1553 21.7266 38.1553 21.9999C38.1553 22.2732 38.0468 22.5353 37.8537 22.7287L25.4787 35.1037C25.2853 35.2968 25.0232 35.4053 24.7499 35.4053C24.4766 35.4053 24.2145 35.2968 24.0212 35.1037Z" fill="#FF447C"/>
+                            </svg>
+                        </a>
+                        <a href="https://vk.com/samokhvalova_design" class="messenders_link">
+                            Vkontakte
+                            <svg class="svg_arrow" width="44" height="44" viewBox="0 0 44 44" fill="#FF447C" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.0212 35.1037C23.8281 34.9103 23.7196 34.6482 23.7196 34.3749C23.7196 34.1016 23.8281 33.8395 24.0212 33.6462L34.6345 23.0312L6.87493 23.0312C6.60143 23.0312 6.33912 22.9225 6.14572 22.7291C5.95233 22.5357 5.84368 22.2734 5.84368 21.9999C5.84368 21.7264 5.95233 21.4641 6.14572 21.2707C6.33912 21.0773 6.60143 20.9687 6.87493 20.9687L34.6345 20.9687L24.0212 10.3537C23.839 10.1582 23.7399 9.89961 23.7446 9.63244C23.7493 9.36528 23.8575 9.11037 24.0465 8.92143C24.2354 8.73249 24.4903 8.62426 24.7575 8.61954C25.0246 8.61483 25.2832 8.714 25.4787 8.89616L37.8537 21.2712C38.0468 21.4645 38.1553 21.7266 38.1553 21.9999C38.1553 22.2732 38.0468 22.5353 37.8537 22.7287L25.4787 35.1037C25.2853 35.2968 25.0232 35.4053 24.7499 35.4053C24.4766 35.4053 24.2145 35.2968 24.0212 35.1037Z" fill="#FF447C"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <form action="./mail.php" method="post" class="contact_form">
+                        <label>
+                            <input class="input" type="text" required placeholder="Ваше имя">
+                        </label>
+                        <label>
+                            <input class="input" type="email" required placeholder="Ваш E-mail">
+                        </label>
+                        <label>
+                            <input class="input" type="number" required placeholder="Ваш телефон">
+                        </label>
+                        <button class="btn_3" type="submit">ОТПРАВИТЬ</button>
+                        <p class="text_politic">Нажимая кнопку "Отправить" Вы даёте согласие на обработку персональных данных и политику конфиденциальности</p>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="foot">
+            <div class="main_foot">
+                <div class="logo_foot">
+                    <a class="link" href="../index.html">
+                        <picture class="pic_head">
+                            <img src="./img/logo.png" alt="logo">
+                        </picture>
+                    </a>
+                    <div class="messengers">
+                        <a href="https://wa.me/79092636541" class="link">
+                                <svg class="svg_messenger" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22.5917 1C34.2563 1 43.7117 10.4554 43.7117 22.12C43.7117 33.7846 34.2563 43.24 22.5917 43.24C18.8593 43.246 15.1926 42.2583 11.9683 40.3782L1.48016 43.24L4.33558 32.7476C2.45399 29.5223 1.46547 25.854 1.47171 22.12C1.47171 10.4554 10.9271 1 22.5917 1ZM15.394 12.1936L14.9716 12.2105C14.6981 12.2271 14.4309 12.299 14.1859 12.4217C13.9568 12.5514 13.7477 12.7136 13.565 12.9032C13.3116 13.1419 13.168 13.3489 13.0138 13.5495C12.2326 14.5652 11.812 15.8121 11.8184 17.0934C11.8226 18.1283 12.0929 19.1357 12.5153 20.0777C13.3792 21.9827 14.8005 23.9997 16.676 25.8688C17.128 26.3186 17.5715 26.7706 18.0488 27.1909C20.3791 29.2426 23.1561 30.7222 26.1589 31.512L27.3585 31.6958C27.7492 31.7169 28.1399 31.6873 28.5327 31.6683C29.1478 31.6366 29.7484 31.47 30.292 31.1805C30.5686 31.038 30.8385 30.883 31.1009 30.7158C31.1009 30.7158 31.1918 30.6567 31.3649 30.5257C31.6501 30.3145 31.8254 30.1646 32.0619 29.9175C32.2372 29.7359 32.3893 29.5225 32.5054 29.2797C32.6702 28.9354 32.8349 28.2786 32.9025 27.7316C32.9532 27.3134 32.9384 27.0853 32.932 26.9438C32.9236 26.7178 32.7356 26.4834 32.5308 26.3841L31.3016 25.8329C31.3016 25.8329 29.4641 25.0324 28.3406 24.5213C28.223 24.47 28.097 24.4406 27.9688 24.4347C27.8243 24.4199 27.6783 24.4362 27.5406 24.4824C27.4029 24.5287 27.2767 24.6039 27.1705 24.703C27.1599 24.6987 27.0184 24.8191 25.4915 26.6692C25.4038 26.787 25.2831 26.876 25.1447 26.9249C25.0063 26.9738 24.8564 26.9804 24.7143 26.9438C24.5767 26.9069 24.4419 26.8603 24.3109 26.8044C24.049 26.6946 23.9582 26.6523 23.7786 26.5763C22.5665 26.0473 21.4442 25.3327 20.4522 24.458C20.1861 24.2256 19.939 23.9722 19.6856 23.7272C18.8547 22.9315 18.1306 22.0313 17.5313 21.0492L17.4067 20.8486C17.3172 20.7137 17.2449 20.5683 17.1913 20.4156C17.1111 20.1051 17.3201 19.8559 17.3201 19.8559C17.3201 19.8559 17.8334 19.2941 18.072 18.99C18.3043 18.6943 18.5008 18.4071 18.6275 18.2022C18.8767 17.8009 18.9548 17.3891 18.8239 17.0702C18.2325 15.6256 17.6201 14.1873 16.9907 12.7596C16.8661 12.4766 16.4965 12.2738 16.1607 12.2337C16.0466 12.221 15.9326 12.2084 15.8185 12.1999C15.5349 12.1858 15.2507 12.1887 14.9674 12.2084L15.394 12.1936Z" fill="white"/>
+                                </svg>
+                        </a>
+                        <a href="https://t.me/alyona_samokhvalova" class="link">
+                                <svg class="svg_messenger" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22.0336 1C10.4624 1 1.07129 10.4618 1.07129 22.12C1.07129 33.7782 10.4624 43.24 22.0336 43.24C33.6047 43.24 42.9958 33.7782 42.9958 22.12C42.9958 10.4618 33.6047 1 22.0336 1ZM31.76 15.3616C31.4456 18.6986 30.0831 26.8086 29.3913 30.5469C29.0978 32.1309 28.5109 32.6589 27.9659 32.7222C26.7501 32.8278 25.8277 31.9197 24.6538 31.1382C22.8092 29.9133 21.761 29.153 19.9793 27.9702C17.904 26.5974 19.2456 25.8371 20.4404 24.6122C20.7549 24.2954 26.1212 19.3744 26.226 18.9309C26.2406 18.8637 26.2386 18.794 26.2204 18.7277C26.2021 18.6615 26.1681 18.6007 26.1212 18.5507C25.9954 18.4451 25.8277 18.4874 25.681 18.5085C25.4923 18.5507 22.5576 20.5149 16.8349 24.401C15.9964 24.9712 15.2418 25.2669 14.571 25.2458C13.8163 25.2246 12.3909 24.8234 11.3218 24.4643C10.0012 24.0419 8.97406 23.8096 9.05791 23.0704C9.09984 22.6902 9.6239 22.3101 10.6091 21.9088C16.7301 19.2266 20.7968 17.4525 22.8301 16.6077C28.6576 14.1578 29.8525 13.7354 30.6491 13.7354C30.8167 13.7354 31.215 13.7776 31.4666 13.9888C31.6762 14.1578 31.7391 14.3901 31.76 14.559C31.7391 14.6858 31.781 15.0659 31.76 15.3616Z" fill="white"/>
+                                </svg>
+                        </a>
+                        <a href="https://vk.com/samokhvalova_design" class="link">
+                                <svg class="svg_messenger" width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22.3711 0.878906C10.8658 0.878906 1.53906 10.3345 1.53906 21.9989C1.53906 33.6633 10.8658 43.1189 22.3711 43.1189C33.8765 43.1189 43.2032 33.6633 43.2032 21.9989C43.2032 10.3345 33.8765 0.878906 22.3711 0.878906ZM30.3828 24.7071C30.3828 24.7071 32.2251 26.5507 32.6787 27.4065C32.6917 27.4241 32.6982 27.4417 32.7025 27.4505C32.887 27.7651 32.9304 28.0093 32.8392 28.1919C32.6873 28.4955 32.1665 28.6451 31.9886 28.6583H28.7336C28.5079 28.6583 28.0349 28.5989 27.462 28.1985C27.0215 27.8861 26.5875 27.3735 26.1643 26.8741C25.5328 26.1305 24.986 25.4881 24.4348 25.4881C24.3648 25.488 24.2952 25.4991 24.2287 25.5211C23.812 25.6575 23.2782 26.2603 23.2782 27.8663C23.2782 28.3679 22.8876 28.6561 22.612 28.6561H21.1212C20.6134 28.6561 17.9682 28.4757 15.6246 25.9699C12.7558 22.9009 10.1735 16.7453 10.1518 16.6881C9.98907 16.2899 10.3254 16.0765 10.6922 16.0765H13.9797C14.4181 16.0765 14.5613 16.3471 14.6611 16.5869C14.7783 16.8663 15.2079 17.9773 15.9132 19.2269C17.0568 21.2641 17.7577 22.0913 18.3197 22.0913C18.4251 22.0901 18.5286 22.0629 18.6214 22.0121C19.3548 21.5985 19.2181 18.9475 19.1856 18.3975C19.1856 18.2941 19.1834 17.2117 18.808 16.6925C18.5389 16.3163 18.081 16.1733 17.8033 16.1205C17.9157 15.9632 18.0638 15.8357 18.2351 15.7487C18.7385 15.4935 19.6456 15.4561 20.5462 15.4561H21.0474C22.0239 15.4693 22.2757 15.5331 22.6294 15.6233C23.3455 15.7971 23.3607 16.2657 23.2977 17.8695C23.2782 18.3249 23.2587 18.8397 23.2587 19.4469C23.2587 19.5789 23.2522 19.7197 23.2522 19.8693C23.2305 20.6855 23.2044 21.6117 23.773 21.9923C23.8471 22.0395 23.9328 22.0646 24.0203 22.0649C24.2178 22.0649 24.8124 22.0649 26.4225 19.2643C26.9191 18.3629 27.3506 17.4262 27.7137 16.4615C27.7462 16.4043 27.8417 16.2283 27.9546 16.1601C28.0378 16.1171 28.1302 16.0952 28.2236 16.0963H32.0884C32.5094 16.0963 32.798 16.1601 32.8523 16.3251C32.9477 16.5869 32.8349 17.3855 31.0707 19.8077L30.283 20.8615C28.6837 22.9867 28.6837 23.0945 30.3828 24.7071Z" fill="white"/>
+                                </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav_foot">
+                    <a href="#portfolio" class="link_foot">ПОРТФОЛИО</a>
+                    <div class="nav_foot_texts">
+                        <a href="#portfolio" class="link_foot_text">Логотип</a>
+                        <a href="#portfolio" class="link_foot_text">Полиграфия</a>
+                        <a href="#portfolio" class="link_foot_text">Веб-дизайн</a>
+                        <a href="#portfolio" class="link_foot_text">Анимация</a>
+                        <a href="#portfolio" class="link_foot_text">3D-визуал</a>
+                    </div>
+                </div>
+                <div class="nav_foot">
+                    <a href="#service" class="link_foot">УСЛУГИ</a>
+                    <div class="nav_foot_texts">
+                        <a href="#service" class="link_foot_text">Брендбук</a>
+                        <a href="#service" class="link_foot_text">Фирменный стиль</a>
+                        <a href="#service" class="link_foot_text">Логотип</a>
+                        <a href="#service" class="link_foot_text">Полиграфия</a>
+                        <a href="#service" class="link_foot_text">Визитка</a>
+                        <a href="#service" class="link_foot_text">Афиша</a>
+                    </div>
+                </div>
+                <div class="nav_foot">
+                    <a href="#contacts" class="link_foot">КОНТАКТЫ</a>
+                    <div class="nav_foot_texts">
+                        <a href="#about" class="link_foot_text">Обо мне</a>
+                        <a href="https://wa.me/79092636541" class="link_foot_text">WhatsApp</a>
+                        <a href="https://t.me/alyona_samokhvalova" class="link_foot_text">Telegram</a>
+                        <a href="https://vk.com/samokhvalova_design" class="link_foot_text">Vkontakte</a>
+                        <a href="#contacts" class="link_foot_text">Обратная связь</a>
+                    </div>
+                </div>
+            </div>
+            <div class="end_foot">
+                <p class="end_foot_text">2022. Samokhvalova Design</p>
+                <a href="#" class="end_foot_text">Политика конфиденциальности</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
