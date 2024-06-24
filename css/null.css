@@ -49,3 +49,14 @@ body {
 .svg_arrow_link {
     transform: rotate(270deg);
 }
+
+/* =========================================== */
+
+@media (max-width:1080px) {
+.scroll-top {
+    top: 200vh;
+}
+
+.scroll-top__link {
+    top: 180vh;
+}
