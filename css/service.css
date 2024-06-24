@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'mulish-100';
+    src: url('../font/Mulish-Light.woff2') format('woff2'),
+        url('../font/Mulish-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mulish-300';
+    src: url('../font/Mulish-Regular.woff2') format('woff2'),
+        url('../font/Mulish-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mulish-400';
+    src: url('../font/Mulish-Medium.woff2') format('woff2'),
+        url('../font/Mulish-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mulish-500';
+    src: url('../font/Mulish-SemiBold.woff2') format('woff2'),
+        url('../font/Mulish-SemiBold.ttf') format('truetype');
+}
+
+/* =============================================== */
+
+.block_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 64px;
+    background-color: #F6F6F6;
+    padding: 64px 100px;
+}
+
+.title_block {
+    font-family: 'mulish-400';
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card_service {
+    width: 407px;
+    padding: 20px;
+    background-color: #0B0B0B;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card_service_content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    height: 197px;
+}
+
+.card_service_titles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+}
+
+.card_service_title_1 {
+    font-family: 'mulish-100';
+    font-weight: 100;
+    font-size: 1.4rem;
+    color: #FF447C;
+    text-transform: uppercase;
+}
+
+.card_service_title_2 {
+    font-family: 'mulish-100';
+    font-weight: 100;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.card_service_texts {
+    font-family: 'mulish-100';
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+}
+
+.card_service_text_1 {
+    font-size: 1rem;
+    color: #AAAAAA;
+}
+
+.card_service_text_2 {
+    font-size: 1.4rem;
+    color: white;
+}
+
+.link_service {
+    width: 100%;
+    text-decoration: none;
+}
+
+.btn_2 {
+    font-family: 'mulish-500';
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border: 1px solid white;
+    background: none;
+    cursor: pointer;
+}
+
+.btn_2:hover {
+    color: #FF447C;
+    border: 1px solid #FF447C;
+    transition: .3s;
+}
+
+/* =============================================== */
+
+@media (max-width:1680px) {
+    .block_4 {
+        padding: 64px 80px;
+    }
+}
+
+@media (max-width:1440px) {
+    .block_4 {
+        padding: 64px 64px;
+    }
+}
+
+@media (max-width:1080px) {
+    .card_service_text_1 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:1024px) {
+    .block_4 {
+        padding: 64px 20px;
+    }
+    .card_service {
+        width: 100%;
+        gap: 64px;
+    }
+    .card_service_content {
+        gap: 96px;
+        height: 320px;
+    }
+    .card_service_title_1 {
+        font-size: 2.5rem;
+    }
+    .card_service_title_2 {
+        font-size: 2.5rem;
+    }
+    .card_service_text_1 {
+        font-size: 1.9rem;
+    }
+    .card_service_text_2 {
+        font-size: 2.5rem;
+    }
+    .btn_2 {
+        font-size: 2rem;
+    }
+}

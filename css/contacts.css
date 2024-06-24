@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'mulish-100';
+    src: url('../font/Mulish-Light.woff2') format('woff2'),
+        url('../font/Mulish-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mulish-300';
+    src: url('../font/Mulish-Regular.woff2') format('woff2'),
+        url('../font/Mulish-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mulish-400';
+    src: url('../font/Mulish-Medium.woff2') format('woff2'),
+        url('../font/Mulish-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mulish-500';
+    src: url('../font/Mulish-SemiBold.woff2') format('woff2'),
+        url('../font/Mulish-SemiBold.ttf') format('truetype');
+}
+
+/* =============================================== */
+
+.block_5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 64px;
+    padding: 64px 100px;
+}
+
+.title_contacts {
+    font-family: 'mulish-400';
+    font-weight: 400;
+    font-size: 3rem;
+    color: white;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 32px;
+}
+
+.contacts_messengers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 32px;
+    max-width: 512px;
+}
+
+.contacts_text {
+    font-family: 'mulish-100';
+    font-weight: 100;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.messenders_link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    font-family: 'mulish-300';
+    font-weight: 300;
+    font-size: 2rem;
+    color: #FF447C;
+    text-decoration: none;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 512px;
+    gap: 20px;
+}
+
+input, label {
+    font-family: 'mulish-300';
+    font-weight: 300;
+    font-size: 1rem;
+    color: #F6F6F6;
+    padding: 30px 15px 15px 15px;
+    width: 100%;
+}
+
+label {
+    padding: 0;
+}
+
+.input {
+    background: none;
+    border-bottom: 1px solid #FF447C;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+input:focus {
+    background: none;
+    outline: none;
+    padding: 30px 15px 15px 15px;
+}
+
+input::-webkit-input-placeholder {
+    color: #888888;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+.btn_3 {
+    font-family: 'mulish-500';
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border: 1px solid white;
+    background: none;
+    margin-top: 48px;
+    cursor: pointer;
+}
+
+.btn_3:hover {
+    color: #FF447C;
+    border: 1px solid #FF447C;
+    transition: .3s;
+}
+
+.text_politic {
+    font-family: 'mulish-300';
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #888888;
+    margin-top: -12px;
+}
+
+/* =============================================== */
+
+@media (max-width:1680px) {
+    .block_5 {
+        padding: 64px 80px;
+    }
+}
+
+@media (max-width:1440px) {
+    .block_5 {
+        padding: 64px 64px;
+    }
+}
+
+@media (max-width:1080px) {
+    .contacts_messengers {
+        max-width: 50%;
+    }
+}
+
+
+@media (max-width:1024px) {
+    .block_5 {
+        padding: 64px 20px;
+    }
+    .contacts {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contacts_text {
+        font-size: 2rem;
+    }
+    .messenders_link {
+        font-size: 3rem;
+    }
+    .svg_arrow {
+        width: 60px;
+        height: 60px;
+    }
+    .contact_form {
+        max-width: 100%;
+        gap: 40px;
+    }
+    input, label {
+        font-size: 2rem;
+    }
+    .btn_3 {
+        font-size: 2rem;
+    }
+    .text_politic {
+        font-size: 1.5rem;
+    }
+}

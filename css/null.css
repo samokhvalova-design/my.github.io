@@ -1,0 +1,51 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: top;
+}
+
+svg path {
+    stroke: inherit;
+    stroke-width: inherit;
+    fill: inherit;
+    }
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ================================================= */
+
+body {
+    background-color: #0A0A0A;
+    position: relative;
+}
+
+.page {
+    position: relative;
+    width: 100%;
+    min-width: 100vh;
+    padding: 32px 0;
+}
+
+.scroll-top {
+    position: absolute;
+    top: 120vh;
+    bottom: 3rem;
+    right: 4rem;
+    z-index: 1;
+}
+  
+.scroll-top__link {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 90vh;
+}
+
+.svg_arrow_link {
+    transform: rotate(270deg);
+}

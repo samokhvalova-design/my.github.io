@@ -1,0 +1,33 @@
+.block_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 694px;
+    overflow: hidden;
+}
+
+/* ============================================== */
+
+@media (max-width:1920px) {
+    .block_1 {
+        max-height: 960px;
+    }
+}
+
+@media (max-width:1680px) {
+    .block_1 {
+        max-height: 700px;
+    }
+}
+
+@media (max-width:1440px) {
+    .block_1 {
+        max-height: 650px;
+    }
+}
+
+@media (max-width:1200px) {
+    .block_1 {
+        max-height: 594px;
+    }
+}

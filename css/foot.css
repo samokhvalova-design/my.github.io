@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'mulish-100';
+    src: url('../font/Mulish-Light.woff2') format('woff2'),
+        url('../font/Mulish-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mulish-300';
+    src: url('../font/Mulish-Regular.woff2') format('woff2'),
+        url('../font/Mulish-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mulish-400';
+    src: url('../font/Mulish-Medium.woff2') format('woff2'),
+        url('../font/Mulish-Medium.ttf') format('truetype');
+}
+
+/* ================================================= */
+
+.foot {
+    margin-top: 100px;
+    padding: 64px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    gap: 64px;
+}
+
+.main_foot {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    gap: 48px;
+}
+
+.logo_foot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.nav_foot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px; 
+}
+
+.nav_foot_texts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.link_foot {
+    color: #FF447C;
+    font-family: 'mulish-400';
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.link_foot_text {
+    color: white;
+    font-family: 'mulish-100';
+    font-weight: 100;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.end_foot {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.end_foot_text {
+    color: #888888;
+    font-family: 'mulish-300';
+    font-weight: 300;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+/* ======================================= */
+
+@media (max-width:1680px) {
+    .foot {
+        padding: 64px 80px;
+    }
+}
+
+@media (max-width:1440px) {
+    .foot {
+        padding: 64px 64px;
+    }
+}
+
+@media (max-width:1024px) {
+    .link_foot {
+        font-size: 2rem;
+    }
+    .link_foot_text {
+        font-size: 0.8rem;
+    }
+    .foot {
+        padding: 64px 20px;
+    }
+    .logo_foot {
+        flex-direction: row;
+        align-items: center;
+    }
+    .nav_foot {
+        display: none;
+    }
+    .svg_messenger {
+        width: 60px;
+        height: 60px;
+    }
+    .end_foot_text {
+        font-size: 1.5rem;
+    }
+}
+
