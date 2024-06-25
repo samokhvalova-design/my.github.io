@@ -142,12 +142,6 @@ input::-webkit-inner-spin-button {
     cursor: pointer;
 }
 
-.btn_3:hover {
-    color: #FF447C;
-    border: 1px solid #FF447C;
-    transition: .3s;
-}
-
 .text_politic {
     font-family: 'mulish-300';
     font-weight: 300;
