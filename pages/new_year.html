@@ -150,15 +150,15 @@
                             </svg>
                         </a>
                     </div>
-                    <form action="./mail.php" method="post" class="contact_form">
+                    <form class="contact_form" autocomplete="off" action='../email.php' method='post'>
                         <label>
-                            <input class="input" type="text" required placeholder="Ваше имя">
+                            <input class="input" name='username' type="text" required placeholder="Ваше имя">
                         </label>
                         <label>
-                            <input class="input" type="email" required placeholder="Ваш E-mail">
+                            <input class="input" name='useremail' type="email" required placeholder="Ваш E-mail">
                         </label>
                         <label>
-                            <input class="input" type="number" required placeholder="Ваш телефон">
+                            <input class="input" name='usernumber' type="number" required placeholder="Ваш телефон">
                         </label>
                         <button class="btn_3" type="submit">ОТПРАВИТЬ</button>
                         <p class="text_politic">Нажимая кнопку "Отправить" Вы даёте согласие на обработку персональных данных и политику конфиденциальности</p>
