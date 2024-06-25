@@ -97,4 +97,8 @@
     .scroll-top {
         right: 0;
     }
+    .svg_arrow_back {
+        width: 60px;
+        height: 60px;
+    }
 }
