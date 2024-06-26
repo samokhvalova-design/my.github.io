@@ -292,10 +292,10 @@
         flex-direction: column;
     }
     .education_univer {
-        height: 64px;
+        height: 80px;
     }
     .education_course {
-        height: 64px;
+        height: 80px;
     }
     .education_title {
         font-size: 3rem;
