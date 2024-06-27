@@ -10,13 +10,13 @@
 
 @media (max-width:2560px) {
     .block_1 {
-        max-height: 1200px;
+        max-height: 1100px;
     }
 }
 
 @media (max-width:1920px) {
     .block_1 {
-        max-height: 960px;
+        max-height: 900px;
     }
 }
 
@@ -35,5 +35,10 @@
 @media (max-width:1200px) {
     .block_1 {
         max-height: 594px;
+    }
+}
+@media (max-width:1024px) {
+    .block_1 {
+        max-height: 550px;
     }
 }
