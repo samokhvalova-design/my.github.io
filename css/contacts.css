@@ -179,6 +179,9 @@ input::-webkit-inner-spin-button {
         flex-direction: column;
         align-items: flex-start;
     }
+    .contacts_messengers {
+        max-width: 100%;
+    }
     .contacts_text {
         font-size: 2rem;
     }
