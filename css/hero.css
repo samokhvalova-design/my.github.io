@@ -10,6 +10,12 @@
 
 @media (max-width:2560px) {
     .block_1 {
+        max-height: 1300px;
+    }
+}
+
+@media (max-width:2160px) {
+    .block_1 {
         max-height: 1100px;
     }
 }
