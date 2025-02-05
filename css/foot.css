@@ -26,7 +26,6 @@
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
-    max-width: 1920px;
     gap: 64px;
 }
 
