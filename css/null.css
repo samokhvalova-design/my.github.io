@@ -32,10 +32,6 @@ body {
     padding: 32px 0;
 }
 
-.main {
-    max-width: 1920px;
-}
-
 .scroll-top {
     position: absolute;
     top: 120vh;
