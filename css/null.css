@@ -28,6 +28,7 @@ body {
 .page {
     position: relative;
     width: 100%;
+    max-width: 1920px;
     min-width: 100vh;
     padding: 32px 0;
 }
