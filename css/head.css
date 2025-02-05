@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 100px;
+    max-width: 1920px;
 }
 
 .pic_head {
